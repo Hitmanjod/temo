@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <style>
+        body {
+            background-color: #2b2b2b;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button">JOIN TG CHANNEL</button>
+        <div>
+            <button class="button">TAMIL</button>
+            <button class="button">ENGLISH</button>
+            <!-- Add more buttons as needed -->
+        </div>
+        <div>
+            <a href="https://prod-ent-live-gm.jiocinema.com/hls/live/2100321/uhd_akamai_atv_bkp_avc_hin_ipl_s1_m1070424/index.m3u8" class="button">ENGLISH 4K</a>
+            <!-- Add more buttons as needed -->
+        </div>
+        <div class="footer">
+            ©️2021 Copyright - LazySoftX All right reserved
+            Telegram: LazySoftX Updates
+        </div>
+    </div>
+</body>
+</html>
